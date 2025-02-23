@@ -1,10 +1,10 @@
 ---
 title: StackGAN
-emoji: 🖼
+emoji: 🐳
 colorFrom: purple
-colorTo: red
-sdk: gradio
-sdk_version: 5.0.1
+colorTo: gray
+sdk: docker
+app_port: 7860
 app_file: main.py
 pinned: false
 license: mit
