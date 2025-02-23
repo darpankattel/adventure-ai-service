@@ -1,3 +1,4 @@
+---
 title: StackGAN
 emoji: 🖼
 colorFrom: purple
@@ -8,6 +9,7 @@ app_file: main.py
 pinned: false
 license: mit
 short_description: For background generation
+---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
@@ -127,4 +129,3 @@ MIT License.
 **Author:** Darpan Kattel
 **Contact:** darpankattel1@gmail.com
 **Project Repository:** [GitHub](https://github.com/darpankattel/adventure-ai-service)
-
