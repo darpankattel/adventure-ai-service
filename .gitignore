@@ -1,0 +1,10 @@
+venv
+.env
+
+# Ignore pycache
+__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
