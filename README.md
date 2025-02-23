@@ -4,7 +4,7 @@ colorFrom: purple
 colorTo: red
 sdk: gradio
 sdk_version: 5.0.1
-app_file: app.py
+app_file: main.py
 pinned: false
 license: mit
 short_description: For background generation
