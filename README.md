@@ -1,3 +1,16 @@
+title: StackGAN
+emoji: 🖼
+colorFrom: purple
+colorTo: red
+sdk: gradio
+sdk_version: 5.0.1
+app_file: app.py
+pinned: false
+license: mit
+short_description: For background generation
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
 # AdVenture AI Service
 
 AdVenture AI Service is a FastAPI-based microservice for generating AI-generated images. It provides two endpoints for generating **background** and **product images** using StackGAN and Stable Diffusion, respectively.
