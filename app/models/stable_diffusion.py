@@ -8,7 +8,7 @@ class StableDiffusion:
     def __init__(self):
         os.makedirs("/app/cache", exist_ok=True)
         self.pipe = StableDiffusionPipeline.from_pretrained(
-            settings.STABLE_DIFFUSION_MODEL_PATH, cache_dir="/app/cache")
+            "darpankattel/adventure-finetune", cache_dir="/app/cache")
         self.pipe.to("cuda" if torch.cuda.is_available() else "cpu")
 
     def generate(self, prompt: str, type_: str, id: str):
