@@ -10,6 +10,7 @@ router = APIRouter()
 # token_data: dict = Depends(verify_token)
 async def generate_background_image(prompt: str):
     """Generates background image using StackGAN"""
+    print("BG prompt", prompt)
     image_path = stable_diffusion_model.generate(
         prompt, "background", datetime.now().strftime("%Y%m%d%H%M%S"))
     return {"image_url": image_path}

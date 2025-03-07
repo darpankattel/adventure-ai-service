@@ -1,10 +1,6 @@
-import os
-import torch
-from diffusers import StableDiffusionPipeline
 from app.core.config import settings
-
-os.environ["HF_HOME"] = "/app/cache"
-os.environ["XDG_CACHE_HOME"] = "/app/cache"
+from diffusers import StableDiffusionPipeline
+import torch
 
 
 class StableDiffusion:
