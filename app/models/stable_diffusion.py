@@ -15,7 +15,7 @@ class StableDiffusion:
         assert type_ in [
             "product", "background"], "Invalid type_, must be 'product' or 'background'"
         image = self.pipe(prompt).images[0]
-        output_path = f"generated_images/{type_}_{id}.png"
+        output_path = f"./generated_images/{type_}_{id}.png"
         image.save(output_path)
         return output_path
 
