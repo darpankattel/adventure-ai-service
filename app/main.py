@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api.endpoints import background, product_image
+from .api.endpoints import background, product_image
 
 app = FastAPI(title="AdVenture AI Microservice")
 
