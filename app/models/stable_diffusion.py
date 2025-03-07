@@ -1,6 +1,7 @@
 from app.core.config import settings
 from diffusers import StableDiffusionPipeline
 import torch
+import os
 
 
 class StableDiffusion:
