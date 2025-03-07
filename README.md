@@ -1,14 +1,12 @@
 ---
-title: StackGAN
-emoji: 🐳
-colorFrom: purple
-colorTo: gray
+title: Adventure Fastapi
+emoji: 🌖
+colorFrom: blue
+colorTo: purple
 sdk: docker
-app_port: 7860
-app_file: main.py
 pinned: false
 license: mit
-short_description: For background generation
+short_description: Fastapi backend for exposing my Diffuser model.
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
