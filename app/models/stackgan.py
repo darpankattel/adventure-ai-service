@@ -14,4 +14,4 @@ class StackGAN:
         return output_path  # Return local image URL
 
 
-stackgan_model = StackGAN()
+# stackgan_model = StackGAN()
